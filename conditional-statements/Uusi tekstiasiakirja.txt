@@ -1,0 +1,5 @@
+int - kokonaisluku
+float - desimaaliluku
+string - merkkijono
+char - merkki
+bool - True/false
