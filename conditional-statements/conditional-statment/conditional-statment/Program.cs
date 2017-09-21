@@ -8,20 +8,27 @@ namespace conditional_statment
         {
             Console.WriteLine("Ohjelma tulostaa positiivinen, negatiivinen tai nolla");
             Console.Write("Syötä luku: ");
-            string userInput; 
-            userInput =  Console.ReadLine();
+            string userInput;
+            userInput = Console.ReadLine();
 
-   
+
             int.TryParse(userInput, out int evaluatedNumber);
 
-            if(evaluatedNumber < 0)
+            if (evaluatedNumber < 0)
             {
                 Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
             }
-            else if(evaluatedNumber > 0)
+            else if (evaluatedNumber > 0)
             {
-             else 
+                Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
             }
+            else
+            {
+                Console.WriteLine($"Numero {evaluatedNumber} on nolla");
+            }
+                
+                Console.WriteLine($"Numero {evaluatedNumber} on nolla");
+        }
             Console.ReadKey();
         }
     }
