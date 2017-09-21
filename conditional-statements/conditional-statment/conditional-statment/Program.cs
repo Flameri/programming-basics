@@ -14,8 +14,14 @@ namespace conditional_statment
    
             int.TryParse(userInput, out int evaluatedNumber);
 
-            Console.WriteLine("Syötit arvon {0}", userInput);
-            Console.WriteLine($"Syötit arvon { userInput}");
+            if(evaluatedNumber < 0)
+            {
+                Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
+            }
+            else if(evaluatedNumber > 0)
+            {
+             else 
+            }
             Console.ReadKey();
         }
     }
