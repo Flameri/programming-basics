@@ -61,6 +61,7 @@ namespace task_3
                     Console.WriteLine("Syötit muuta kuin numeroita");
                     Console.WriteLine($"Syötit arvon {userInput}");
                 }
+            
             } while (true);
             Console.ReadKey();
         }
