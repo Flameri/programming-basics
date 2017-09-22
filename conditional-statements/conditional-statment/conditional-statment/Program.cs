@@ -26,9 +26,8 @@ namespace conditional_statment
             {
                 Console.WriteLine($"Numero {evaluatedNumber} on nolla");
             }
-                
-                Console.WriteLine($"Numero {evaluatedNumber} on nolla");
-        }
+
+            Console.WriteLine($"Syötit arvon {userInput}");    
             Console.ReadKey();
         }
     }
