@@ -16,7 +16,6 @@ namespace loop_example
             int f = 1;
             do
             {
-                
                 i = i + 1;
               
                 f = f * i;
