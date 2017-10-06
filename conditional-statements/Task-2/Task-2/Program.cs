@@ -69,7 +69,7 @@ namespace Task_2
                 Console.WriteLine("Jokin meni pieleen");
             }
                     
-            Console.WriteLine($"Lipun hintasi on: {price-price*discount}");
+            Console.WriteLine($"Lipun hintasi on: {price-price*discount}€");
             Console.ReadKey();
             Console.ReadKey(); 
             //Että ohjelma jää pyörimään vähän pidempään
