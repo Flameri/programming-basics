@@ -8,29 +8,28 @@ namespace loop_3
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("Ohjelma laskee lisäyksen. Anna luku, jonka lisäys lasketaan: ");
+            Console.WriteLine("Ohjelma laskee ensimmäisen parittoman ja parillisen lukujen summan: ");
             string userInput = Console.ReadLine();
             //int number;
             int number = int.Parse(userInput);
 
             //int.TryParse(userInput, out  int number);
-            int i = 1;
-            int f = 1;
-
-            if (number < 0)
+            int i = 0;
+            int evenSum = 0;
+            int oddSum = 0;
+            do
             {
-                Console.WriteLine("Virheellinen syöte");
-            }
-            else
-            {
-                do
-                {
-                    i = i + 1;
+                if (i % 2 == 0)
+                    evenSum += i;
+                else
+                    oddSum += i;
 
-                    f = f + i;
-                    Console.WriteLine($"{i}= {f}");
-                } while (i < number);
+                i++;
             }
+            while (i <= number);
+
+            Console.WriteLine($"Parillisten lukujen summa = {evenSum} ja parittomien lukujen summa = {oddSum}");
+          
             Console.ReadKey();
         }
     }

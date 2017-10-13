@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop-example", "loop-exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop-2", "loop-2\loop-2.csproj", "{7BA4DBAB-566C-42DF-AFF9-B7B7D0BEE025}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop-3", "loop-3\loop-3.csproj", "{D76E1F8B-A3FF-4FC5-84EC-793B1620BFB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop-3", "loop-3\loop-3.csproj", "{D76E1F8B-A3FF-4FC5-84EC-793B1620BFB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop-4", "loop-4\loop-4.csproj", "{DE21568A-1C4C-4532-9201-EC3C76714D13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D76E1F8B-A3FF-4FC5-84EC-793B1620BFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D76E1F8B-A3FF-4FC5-84EC-793B1620BFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76E1F8B-A3FF-4FC5-84EC-793B1620BFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE21568A-1C4C-4532-9201-EC3C76714D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE21568A-1C4C-4532-9201-EC3C76714D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE21568A-1C4C-4532-9201-EC3C76714D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE21568A-1C4C-4532-9201-EC3C76714D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
