@@ -14,7 +14,7 @@ namespace loop_3
             int number = int.Parse(userInput);
 
             //int.TryParse(userInput, out  int number);
-            int i = 0;
+            int i = 1;
             int evenSum = 0;
             int oddSum = 0;
             do
