@@ -12,7 +12,7 @@ namespace loop__example_2
 
             do
             {
-               Console.WriteLine($"{i} {Math.Sqrt(i)}");
+                Console.WriteLine($"{i}\t{Math.Round(Math.Sqrt(i), 2)}");
                 i++;
             }
             while (i < 11);
