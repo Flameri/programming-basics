@@ -21,6 +21,7 @@ namespace loop_3
             {
                 if (i % 2 == 0)
                     evenSum += i;
+
                 else
                     oddSum += i;
 
