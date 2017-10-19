@@ -12,7 +12,7 @@ namespace loop_example
             string userInput = Console.ReadLine();
             //int number;
             int number = int.Parse(userInput);
-            
+
             //int.TryParse(userInput, out  int number);
             int i = 0;
             int f = 1;
@@ -40,14 +40,14 @@ namespace loop_example
                     f = f * i;
                 }
                 */
-                for(int  j=1;j <= number;j++)
+                for (int j = 1; j <= number; j++)
                 {
                     f = f * j;
                     Console.WriteLine($"{j} != {f}");
                 }
                 Console.WriteLine($"Syötit {number}\n vastaus {f}"); // 5 != 120
             }
-            
+
             Console.ReadKey();
 
         }

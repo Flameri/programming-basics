@@ -30,7 +30,7 @@ namespace loop_3
             while (i <= number);
 
             Console.WriteLine($"Parillisten lukujen summa = {evenSum} ja parittomien lukujen summa = {oddSum}");
-          
+
             Console.ReadKey();
         }
     }

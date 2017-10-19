@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace loop_2
+namespace loop_4
 {
     class Program
     {
@@ -14,23 +14,30 @@ namespace loop_2
             int number = int.Parse(userInput);
 
             //int.TryParse(userInput, out  int number);
-            int i = 1;
-            int f = 1;
+            int i = 0;
+            int f = 0;
 
-            if (number < 0)
-            {
-                Console.WriteLine("Virheellinen syöte");
-            }
-            else
+            if (number > 0)
             {
                 do
                 {
                     i = i + 1;
 
                     f = f + i;
-                    Console.WriteLine($"{i}= {f}");
+
                 } while (i < number);
             }
+            else
+            {
+                do
+                {
+                    i = i - 1;
+                    f = f + i;
+                } while (i > number);
+            }
+
+
+            Console.WriteLine($"Syötit {i}\n Vastaus on {f}");
             Console.ReadKey();
         }
     }
