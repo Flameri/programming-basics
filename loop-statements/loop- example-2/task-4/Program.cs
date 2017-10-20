@@ -24,7 +24,9 @@ namespace task_4
                 {
                     klaava++;
                 }
+                // Console.WriteLine(i);
             }
+
                 Console.WriteLine($"Kolikkoa on heitetty {n} kertaa.\nKlaavoja tuli {klaava} kruunia tuli {kruuna}");
                 Console.ReadKey();
             
