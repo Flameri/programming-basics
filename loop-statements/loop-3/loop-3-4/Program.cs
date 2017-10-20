@@ -8,7 +8,7 @@ namespace loop_4
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("Ohjelma laskee lisäyksen. Anna luku, jonka lisäys lasketaan: ");
+            Console.WriteLine("Ohjelma laskee lisäyksen. Anna luku, jonka lisäys lasketaan, laskee myös negatiiviset: ");
             string userInput = Console.ReadLine();
             //int number;
             int number = int.Parse(userInput);
