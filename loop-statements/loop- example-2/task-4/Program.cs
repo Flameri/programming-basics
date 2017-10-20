@@ -10,8 +10,8 @@ namespace task_4
 
             Console.WriteLine("Ohjelma simuloi rahan heittoa: ");
             int.TryParse(Console.ReadLine(), out int n);
-            int kruuna = 1;
-            int klaava = 1;
+            int kruuna = 0;
+            int klaava = 0;
             Random rnd = new Random();
 
             for (int i = 0; i < n; i++)
@@ -24,9 +24,10 @@ namespace task_4
                 {
                     klaava++;
                 }
-                Console.WriteLine($"Kolikkoa on heitetty {n} kertaa.\n Klaavoja tuli {klaava} kruunia tuli {kruuna}");
-                Console.ReadKey();
             }
+                Console.WriteLine($"Kolikkoa on heitetty {n} kertaa.\nKlaavoja tuli {klaava} kruunia tuli {kruuna}");
+                Console.ReadKey();
+            
         }
     }
 }
