@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop- example-2", "loop- example-2\loop- example-2.csproj", "{5164EB77-C74B-468C-9EDD-2D8D81CAC922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task-1", "loop- example-2\task-1.csproj", "{5164EB77-C74B-468C-9EDD-2D8D81CAC922}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop-example-2.2", "loop-example-2.2\loop-example-2.2.csproj", "{7A7220FD-C41A-4C6F-832E-75A57EE8B74A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "task-2", "loop-example-2.2\task-2.csproj", "{7A7220FD-C41A-4C6F-832E-75A57EE8B74A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop-example-2.3", "loop-example-2.3\loop-example-2.3.csproj", "{DC02EAA6-C19F-419C-85A8-63A151E238B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task-3", "loop-example-2.3\task-3.csproj", "{DC02EAA6-C19F-419C-85A8-63A151E238B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
