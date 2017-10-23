@@ -8,14 +8,27 @@ namespace funktio_2
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Syötä ohjelmalle 2 numeroa, ohjelma kertoo kumpi on pienempi.");
+            Console.WriteLine("Syötä ensimmäinen luku");
             string userInput = Console.ReadLine();
-            int number = int.Parse(userInput);
-
-            int x;
-            int y;
+            int x = int.Parse(userInput);
+            Console.WriteLine("Syötä toinen luku");
+            string userInput2 = Console.ReadLine();
+            int y = int.Parse(userInput2);
             
+            
+           
+            int p = Calculator(x, y);
 
-            int result = Calculator(x, y);
+            if(p == x)
+            {
+                Console.WriteLine($"{x} on pienempi kuin {y}");
+            }
+            else
+            {
+                Console.WriteLine($"{y} on pienempi kuin {x}");
+            }
+            Console.ReadKey();
+
         }
         static int Calculator(int x,  int y)
         {
@@ -28,6 +41,7 @@ namespace funktio_2
             {
                 return y;
             }
+            
         }
     }
 }
