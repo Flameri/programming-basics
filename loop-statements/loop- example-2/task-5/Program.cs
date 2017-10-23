@@ -8,16 +8,26 @@ namespace task_5
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Ohjelma tulostaa vakioveikkauksen rivin, 13 kohdetta X 1 tai 2");
-            Random rnd = new Random;
-           
+            Random rnd = new Random();
+            double y;
 
-            for
+            for(int x = 1; x < 14; x++)
             {
-                if (x < 0.4)
-                    return "1";
-            }
-            
+                y = rnd.NextDouble();
+                if (y < 0.4)
+                {
+                    Console.WriteLine("1");
+                }
 
+                else if (y > 0.6)
+                {
+                     Console.WriteLine("2");
+                }
+                else
+                {
+                     Console.WriteLine("x");
+                }
+            }
 
             Console.ReadKey();
         }
