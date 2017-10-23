@@ -14,7 +14,7 @@ namespace task_5
             for(int x = 1; x < 14; x++)
             {
                 y = rnd.NextDouble();
-                if (y < 0.4)
+                if (y <= 0.4)
                 {
                     Console.WriteLine("1");
                 }
