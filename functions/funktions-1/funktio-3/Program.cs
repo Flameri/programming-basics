@@ -12,7 +12,7 @@ namespace funktio_3
             Console.ReadKey();
 
         }
-        static int NumberFromRange(int lowerBound, int upperBound)
+        static int numberFromRange(int lowerBound, int upperBound)
         {
             bool isNumber;
             int input = 0;
