@@ -31,8 +31,8 @@ namespace funktio_3
                 }
                 else
                 {
-                    
-                    isNumber = false;
+                        Console.WriteLine("Syöttämäsi luku ei ole alueella");
+                        isNumber = false;
                 }
             }
             while (isNumber == false);
