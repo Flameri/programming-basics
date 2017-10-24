@@ -8,7 +8,7 @@ namespace loop_2
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("Ohjelma laskee lisäyksen. Anna luku, jonka lisäys lasketaan: ");
+            Console.WriteLine("Ohjelma laskee N ensimmäistä lukua yhteen. Anna luku, jonka lisäys lasketaan: ");
             string userInput = Console.ReadLine();
             //int number;
             int number = int.Parse(userInput);
