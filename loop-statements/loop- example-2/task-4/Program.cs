@@ -8,7 +8,7 @@ namespace task_4
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            Console.WriteLine("Ohjelma simuloi rahan heittoa: ");
+            Console.WriteLine("Ohjelma simuloi rahan heittoa, syötä heittojen määrä: ");
             int.TryParse(Console.ReadLine(), out int n);
             int kruuna = 0;
             int klaava = 0;
