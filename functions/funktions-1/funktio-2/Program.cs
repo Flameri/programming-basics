@@ -19,13 +19,17 @@ namespace funktio_2
            
             int p = Calculator(x, y);
 
-            if(p == x)
+            if(p == x && x != y)
             {
                 Console.WriteLine($"{x} on pienempi kuin {y}");
             }
-            else
+            else if(p == y && y != x)
             {
                 Console.WriteLine($"{y} on pienempi kuin {x}");
+            }
+            else
+            {
+                Console.WriteLine($"{x} on yhtäsuuri kuin {y}");
             }
             Console.ReadKey();
 
@@ -41,7 +45,6 @@ namespace funktio_2
             {
                 return y;
             }
-            
         }
     }
 }
