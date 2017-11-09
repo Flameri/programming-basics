@@ -10,11 +10,12 @@ namespace array_task_2
             Console.WriteLine("Ohjelma arpoo 7 lukua 0-40 väliltä ja tulostaa ne pienimmästä suurimpaan, lisäksi yksi lisänumero ja tuplausnumero");
             int[] x = new int[9];
             Random rnd = new Random();
-
+            //Viimeistä numeroa ei arvota  koska tuplaus voi olla jo arvottu
             for (int i = 0; i < x.Length - 1; i++)
             {
                 x[i] = rnd.Next(1, 41);
 
+                // Tarkistus onko luku jo arvottu
                 for (int j = 0; j < i; j++)
                 {
                     if (x[j] == x[i])
