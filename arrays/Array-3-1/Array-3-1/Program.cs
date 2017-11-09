@@ -18,5 +18,7 @@ namespace Array_3_1
             }
             Console.ReadKey();
         }
+        static int Sorter()
+
     }
 }
