@@ -7,7 +7,7 @@ namespace Kertaustehtävä
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("Ohjelma tulostaa annetun määrän tähtiä");
+            Console.WriteLine("Ohjelma tulostaa annetun määrän tähtiä \n");
             int[] x = new int[] { 3, 5, 10, 5, 3};
             
 
