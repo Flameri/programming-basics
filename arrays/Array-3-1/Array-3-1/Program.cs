@@ -22,19 +22,17 @@ namespace Array_3_1
             Random rnd = new Random();
             int y = rnd.Next(1, 21);
             string res = "";
-            
-            for(int i = 0; 1 < 21; i++) 
-            {
-                if (y < 10)
-                {
+ 
+               if (y < 10)
+               {
                     res = "0" + y.ToString();
-                }
-                else
-                {
+               }
+               else
+               {
                     res = y.ToString();
-                }
-                return res;
-            }
+               }
+               return res;
+   
         }
     }
 }
