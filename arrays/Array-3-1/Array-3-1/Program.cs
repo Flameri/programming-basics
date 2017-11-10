@@ -4,6 +4,7 @@ namespace Array_3_1
 {
     class Program
     {
+        //Ohjelma oli liian nopea oli määriteltävä rnd ylemmäs
         static Random rnd = new Random();
 
         static void Main(string[] args)
