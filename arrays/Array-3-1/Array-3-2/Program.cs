@@ -8,7 +8,7 @@ namespace Array_3_2
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Ohjelma arpoo kokonaislukuja kaksiulotteiseen taulukkoon");
-            int[0,100]
+            int[,] = new int[0, 100];
         }
     }
 }
