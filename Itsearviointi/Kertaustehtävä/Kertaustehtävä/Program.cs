@@ -8,13 +8,15 @@ namespace Kertaustehtävä
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Ohjelma tulostaa annetun määrän tähtiä");
-            int[] numbers = new int[{ 2, 5, 10, 7, 3 }];
+            int[] x = new int[] { 3, 5, 10, 5, 3};
+            
 
-           for(int i = 0; i < numbers.Length; i++)
+           for(int i = 0; i < x.Length; i++)
             {
-
+                string star = StarMachine(x[i]);
+                Console.WriteLine($"{star}");
             }
-
+            Console.ReadKey();
         }
         static string StarMachine(int stars)
         {
@@ -25,8 +27,6 @@ namespace Kertaustehtävä
                 res += "*";
             }
             return res;
-
-
         }
     }
 }
