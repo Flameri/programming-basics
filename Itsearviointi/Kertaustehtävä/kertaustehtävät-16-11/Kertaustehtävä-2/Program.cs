@@ -32,6 +32,17 @@ namespace Kertaustehtävä_2
                 {
                     Console.WriteLine("Lukuni on suurempi");
                 }
+
+                if (x > 100)
+                {
+                    Console.WriteLine("Numerosi ei ole alueella!");
+                }
+
+                if (y > 100)
+                {
+                    Console.WriteLine("Numerosi ei ole alueella!");
+                }
+
             } while (x != y);
 
            
