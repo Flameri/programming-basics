@@ -12,7 +12,7 @@ namespace Array_3_2
 
             for (int i = 0; i < 100; i++)
             {
-               arr[i] = Sorter();
+               arr[i,i] = Sorter();
                 Console.WriteLine($"{i + 1} = {arr[i]}");
             }
             Console.ReadKey();
