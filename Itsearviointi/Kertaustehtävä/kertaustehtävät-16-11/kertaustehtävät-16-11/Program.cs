@@ -8,30 +8,32 @@ namespace kertaustehtävät_16_11
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Ohjelma kysyy lukuja, kunnes syötät kaksi samaa.");
-            bool number;
+
+            int x = 0;
+            int y = 0;
+            int i = 0;
+            int sum = 0;
 
             do
             {
-                Console.WriteLine("Syötä luku:");
                 string userInput = Console.ReadLine();
-                int x = int.Parse(userInput);
-                number = int.TryParse(userInput, out int y);
 
-                if(y == y)
+                if(i % 2 == 0)
                 {
-                    Console.WriteLine("Ohjelman suoritus päättyy");
-                    break;
+                    Console.WriteLine("Syötä luku");
+                    x = int.Parse(userInput);
+                    sum = sum + x;
                 }
-                else if(y != y)
+                else
                 {
-                    y++;
+                    Console.WriteLine("Syötä luku");
+                    y = int.Parse(userInput);
+                    sum = sum + y;
                 }
+                i++;
+            } while (x != y);
 
-
-            } while (true);
-
-
-            Console.WriteLine($"");
+            Console.WriteLine($"Syöttämiesi lukujen summa on {sum}");
             Console.ReadLine();
         }
     }
