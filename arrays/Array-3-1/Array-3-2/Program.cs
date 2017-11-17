@@ -13,15 +13,14 @@ namespace Array_3_2
             Console.WriteLine("Ohjelma arpoo kokonaislukuja kaksiulotteiseen taulukkoon");
             int[,] arr = new int[10, 20];
 
-            for (int i = 0; i <= 10; i++)
+            for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; i <= 20; j++)
+                for (int j = 0; j < 20; j++)
                 {
                     if (arr[i,j] < 10)
                     {
-
-
-
+                        arr[i, j] = int.Parse(Sorter());
+                        Console.WriteLine($"[{i:00},{j:00}] = {arr[i,j]:00}");
                     }
                 }
             }
