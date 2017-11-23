@@ -9,8 +9,8 @@ namespace kertaustehtävät_16_11
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Ohjelma kysyy lukuja, kunnes syötät kaksi samaa.");
 
-            int x = 0;
-            int y = 0;
+            int newNumber = 0;
+            int newNumber2 = 0;
             int i = 0;
             int sum = 0;
 
@@ -21,17 +21,17 @@ namespace kertaustehtävät_16_11
                 if(i % 2 == 0)
                 {
                     Console.WriteLine("Syötä luku");
-                    x = int.Parse(userInput);
-                    sum = sum + x;
+                    newNumber = int.Parse(userInput);
+                    sum = sum + ;
                 }
                 else
                 {
                     Console.WriteLine("Syötä luku");
-                    y = int.Parse(userInput);
-                    sum = sum + y;
+                    newNumber2 = int.Parse(userInput);
+                    sum = sum + newNumber2;
                 }
                 i++;
-            } while (x != y);
+            } while (newNumber != newNumber2);
 
             Console.WriteLine($"Syöttämiesi lukujen summa on {sum}");
             Console.ReadLine();
