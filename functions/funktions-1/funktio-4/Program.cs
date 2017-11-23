@@ -37,9 +37,9 @@ namespace funktio_4
                 {
                     Console.WriteLine("Väärä syöte, syötä positiivinen luku");
                     i--;
-                }
-                
+                }            
             }
+            Console.WriteLine($"\nSyötit seuraavat luvut:\n {outPut}\n ");
             return max;
         }
     }
