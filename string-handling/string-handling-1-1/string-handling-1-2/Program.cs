@@ -6,7 +6,11 @@ namespace string_handling_1_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("Syötä tekstiä.");
+            string userInput = Console.ReadLine();
+            Console.WriteLine($"Syötit tekstin: {userInput}, siinä on merkkejä {userInput.Length}");
+            Console.ReadKey();
         }
     }
 }
