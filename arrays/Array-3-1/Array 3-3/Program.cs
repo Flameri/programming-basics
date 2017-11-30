@@ -14,21 +14,42 @@ namespace Array_3_3
             int[] arrT_3 = new int[10];
 
             Random rnd = new Random();
-            
+
 
             for (int i = 0; i < 10; i++)
             {
                 arrT_1[i] = rnd.Next(0, 10);
-                Console.Write($"{i + 1}  {arrT_1[i]}\n");
+                //Console.Write($"{i + 1} {Printer(arrT_1[i])}");
             }
-            for (int j = 0; j < 10; j++)
+            for (int i = 0; i < 10; i++)
             {
-                arrT_2[j] = rnd.Next(0, 10);
-                Console.Write($" {arrT_2[j]} ");
+                arrT_2[i] = rnd.Next(0, 10);
+                //Console.Write($"{Printer(arrT_2[j])} ");
             }
+             for (int i = 0; i < 10; i++)
+             {
+                if (arrT_1[i] < arrT_2[i])
+                    arrT_3[i] = arrT_2[i];
+                else
+                    arrT_3[i] = arrT_1[i]; 
+             }
 
 
-            Console.ReadKey();
-        }
+             Console.ReadKey();
+         }
+         static string Printer(int [] arrX)
+         { 
+             string res = "";
+
+             if(no1 < no2)
+             {
+                 res += no2;
+             }
+             
+             {
+                 res += no1;
+             }
+             return res; 
+         }
     }
 }
