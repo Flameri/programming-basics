@@ -15,7 +15,6 @@ namespace Array_3_3
 
             Random rnd = new Random();
 
-
             for (int i = 0; i < 10; i++)
             {
                 arrT_1[i] = rnd.Next(0, 10);
@@ -24,14 +23,18 @@ namespace Array_3_3
             for (int i = 0; i < 10; i++)
             {
                 arrT_2[i] = rnd.Next(0, 10);
-                //Console.Write($"{Printer(arrT_2[j])} ");
+                //Console.Write($"{Printer(arrT_2[i])} ");
             }
              for (int i = 0; i < 10; i++)
              {
                 if (arrT_1[i] < arrT_2[i])
+                {
                     arrT_3[i] = arrT_2[i];
+                }
                 else
-                    arrT_3[i] = arrT_1[i]; 
+                {
+                    arrT_3[i] = arrT_1[i];
+                }
              }
 
 
@@ -40,15 +43,8 @@ namespace Array_3_3
          static string Printer(int [] arrX)
          { 
              string res = "";
+            
 
-             if(no1 < no2)
-             {
-                 res += no2;
-             }
-             
-             {
-                 res += no1;
-             }
              return res; 
          }
     }
