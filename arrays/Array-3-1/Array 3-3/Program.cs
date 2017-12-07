@@ -37,7 +37,7 @@ namespace Array_3_3
                 }
              }
             //0-10 numeroiden yläpuolelle
-            Console.Write("         ");
+            Console.Write("         "); //välilyöntejä 
              for(int i = 1; i <= 10; i++)
              {
                 if(i < 10)
