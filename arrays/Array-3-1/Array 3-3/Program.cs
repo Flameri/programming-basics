@@ -41,14 +41,14 @@ namespace Array_3_3
              {
                 if(i < 10)
                 {
-                    Console.Write($"  0{i}");
+                    Console.Write($"  0{i} ");
                 }
                 else
                 {
-                    Console.Write($"  {i}\n");
+                    Console.Write($"  {i}\n ");
                 }
              }
-            Console.Write("--------------------------------------\n"); // --- numeroiden alle
+            Console.Write("------------------------------------------------\n"); // --- numeroiden alle
             Console.WriteLine($"arrT_1:  {Printer(arrT_1)}\narrT_2:  {Printer(arrT_2)}\narrT_3:  {Printer(arrT_3)}");
 
              Console.ReadKey();
@@ -59,7 +59,7 @@ namespace Array_3_3
 
             for (int i = 0; i < arrX.Length; i++)
             {
-                res += $"{arrX[i]:00} ";
+                res += $" {arrX[i]:00} ";
             }
 
             
