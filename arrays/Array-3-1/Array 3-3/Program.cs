@@ -41,10 +41,15 @@ namespace Array_3_3
              Console.ReadKey();
          }
          static string Printer(int [] arrX)
-         { 
-             string res = "";
-            
+         {
+            string res = "";
 
+            for (int i = 0; i < arrX.Length; i++)
+            {
+                res += i;
+            }
+
+            
              return res; 
          }
     }
