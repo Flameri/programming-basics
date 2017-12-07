@@ -7,7 +7,7 @@ namespace Array_3_3
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("Ohjelma määrittelee kolme taulukkoa, joissa on jokaisessa 10 lukua.");
+            Console.WriteLine("Ohjelma määrittelee kolme taulukkoa, joissa on jokaisessa 10 lukua.\n");
 
             int[] arrT_1 = new int[10];
             int[] arrT_2 = new int[10];
@@ -36,7 +36,18 @@ namespace Array_3_3
                     arrT_3[i] = arrT_1[i];
                 }
              }
-
+             //0-10 numeroiden yläpuolelle
+             for(int i = 1; i <= 10; i++)
+             {
+                if(i < 10)
+                {
+                    Console.Write($" 0{i} ");
+                }
+                else
+                {
+                    Console.Write($" {i}\n ");
+                }
+             }
 
              Console.ReadKey();
          }

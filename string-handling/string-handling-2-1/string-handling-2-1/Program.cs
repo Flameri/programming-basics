@@ -22,7 +22,7 @@ namespace string_handling_2_1
                     }
                 }
             }
-            Console.WriteLine($"Syötit sanan {userInput}, siinä on vokaaleja {sum}.");
+            Console.WriteLine($"Syötit {userInput.ToLower()}, siinä on vokaaleja {sum}.");
             Console.ReadKey();
         } 
     }
